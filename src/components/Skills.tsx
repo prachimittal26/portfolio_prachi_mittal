@@ -107,10 +107,10 @@ const Skills = () => {
               </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              { name: "Machine Learning", icon: "🤖", color: "from-green-500 to-emerald-500" },
+              { name: "GenAI", icon: "🤖", color: "from-green-500 to-emerald-500" },
               { name: "Web3 & Blockchain", icon: "⛓️", color: "from-yellow-500 to-orange-500" },
-              { name: "Mobile Development", icon: "📱", color: "from-blue-500 to-cyan-500" },
-              { name: "DevOps & Cloud", icon: "☁️", color: "from-purple-500 to-pink-500" },
+              { name: "Kubernetes", icon: "📱", color: "from-blue-500 to-cyan-500" },
+              { name: "Cloud", icon: "☁️", color: "from-purple-500 to-pink-500" },
               { name: "AI/ML Integration", icon: "🧠", color: "from-red-500 to-rose-500" }
             ].map((skill, index) => (
               <span 
