@@ -18,7 +18,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full animate-spin-slow opacity-75"></div>
               <div className="relative w-full h-full bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-2xl transform group-hover:scale-110 transition-all duration-500">
                 <img 
-                  src="/Screenshot 2025-07-17 124016.png" 
+                  src="/cv3.jpg" 
                   alt="Profile" 
                   className="w-full h-full rounded-full object-cover"
                 />
