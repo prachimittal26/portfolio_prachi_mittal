@@ -4,20 +4,31 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Prepify AI ",
+      title: "SENSAI ",
       description: "Designed and developed an AI-powered career coaching platform, streamlining the job preparation process.Enabled users to generate resumes, cover letters, and practice AI-driven mock interviews.  Developed a scalable frontend (Next.js, shadcn/ui) and backend (Prisma, PostgreSQL) powering real-time AI content for 500+ users with secure, seamless UX.",
       image: "/Screenshot 2025-07-17 120521.png",
       technologies: [" Next.js", "Node.js", "PostgreSQL", "Prisma", "Neon","shadcn/ui"],
-      liveUrl: "#",
+      liveUrl: "https://coachly-ai.vercel.app/",
       githubUrl: "#",
       featured: true
+    },
+    
+    
+    {
+      title: "Colorfy",
+      description: "Colored Icons library is a collection of brand logos and tech stack logos.It's a handy resource to easily add brand icons to your projects with the hassle of mutual attribution.From frameworks like React and databases like MongoDB to brands like Tesla and Spotify — access every essential icon in seconds via CDN.Zero downloads. Zero build steps.Just pure CDN magic.",
+      image: "Screenshot 2025-07-24 172225.png",
+      technologies: ["Next.js", "Reactjs", "MongoDB", "Prisma", "Gemini"],
+      liveUrl: "https://coloryfy-qa62.vercel.app/",
+      githubUrl: "#",
+      featured: false
     },
     {
       title: "IntelliAgent",
       description: "Developed an intelligent AI Agent with Google Gemini integration featuring real-time function calling capabilities.Created smart conversation flow with AI function calling and dynamic code execution via parameter parsing.Users can see when AI calls functions vs. generating responses (LLM limitations and how function calling solves them) ",
       image: "/robot.jpeg",
       technologies: ["React", "Gemini AI", "REST APIs", "Node.js", "Lucide","Framer Motion"],
-      liveUrl: "#",
+      // liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
@@ -26,16 +37,7 @@ const Projects = () => {
       description: "Developed progressive news web app with offline news reading capability, push notifications, and responsive design supporting 1000+ concurrent users. Implemented database indexing, and optimized queries reducing load time by 60%. Integrated Elastic search for full-text search with auto-suggestions, sentiment analysis, and content categorization using NLP",
       image: "/girl.jpg",
       technologies: ["React 18+", "MongoDB", "Docker", "GitHub", "NewsAPI"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Social Media Platform",
-      description: "Full-featured social platform with real-time messaging, content sharing, and advanced privacy controls. Built for scalability and performance.",
-      image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Next.js", "GraphQL", "MongoDB", "AWS", "Docker"],
-      liveUrl: "#",
+      // liveUrl: "#",
       githubUrl: "#",
       featured: false
     }
@@ -102,13 +104,13 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4">
-                  {/* <a 
+                  <a 
                     href={project.liveUrl}
                     className="flex items-center gap-2 text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 font-medium transition-all duration-200 hover:scale-105"
                   >
                     <ExternalLink size={16} />
                     Live Demo
-                  </a> */}
+                  </a>
                   {/* <a 
                     href={project.githubUrl}
                     className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 font-medium transition-all duration-200 hover:scale-105"
