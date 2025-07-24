@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "SENSAI ",
+      title: "Prepify AI ",
       description: "Designed and developed an AI-powered career coaching platform, streamlining the job preparation process.Enabled users to generate resumes, cover letters, and practice AI-driven mock interviews.  Developed a scalable frontend (Next.js, shadcn/ui) and backend (Prisma, PostgreSQL) powering real-time AI content for 500+ users with secure, seamless UX.",
       image: "/Screenshot 2025-07-17 120521.png",
       technologies: [" Next.js", "Node.js", "PostgreSQL", "Prisma", "Neon","shadcn/ui"],
