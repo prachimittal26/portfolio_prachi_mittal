@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "IntelliAgent",
       description: "Developed an intelligent AI Agent with Google Gemini integration featuring real-time function calling capabilities.Created smart conversation flow with AI function calling and dynamic code execution via parameter parsing.Users can see when AI calls functions vs. generating responses (LLM limitations and how function calling solves them) ",
-      image: "/Screenshot 2025-07-17 122451.png",
+      image: "/robot.jpeg",
       technologies: ["React", "Gemini AI", "REST APIs", "Node.js", "Lucide","Framer Motion"],
       liveUrl: "#",
       githubUrl: "#",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "NewsMonkey- daily dose of news",
       description: "Developed progressive news web app with offline news reading capability, push notifications, and responsive design supporting 1000+ concurrent users. Implemented database indexing, and optimized queries reducing load time by 60%. Integrated Elastic search for full-text search with auto-suggestions, sentiment analysis, and content categorization using NLP",
-      image: "/Screenshot 2025-07-17 123813.png",
+      image: "/girl.jpg",
       technologies: ["React 18+", "MongoDB", "Docker", "GitHub", "NewsAPI"],
       liveUrl: "#",
       githubUrl: "#",

@@ -12,8 +12,8 @@ const Achievements = () => {
   const achievements = [
     {
       id: 1,
-      title: "Excellence Award 2023",
-      description: "Outstanding performance in software development and innovation",
+      title: "Leetcode 400+ ques solved",
+      description: "Outstanding performance in solving complex problems in DSA",
       image: "/Screenshot 2025-07-18 120350.png",
       icon: Trophy,
       // color: "from-yellow-400 to-orange-500",
@@ -23,8 +23,8 @@ const Achievements = () => {
     },
     {
       id: 2,
-      title: "Innovation Champion",
-      description: "Recognized for breakthrough solutions in web development",
+      title: "HACK-O-OCTO",
+      description: "Won the best agricultural award in 36hrs hackathon ",
       image: "/Screenshot 2025-07-17 123813.png",
       icon: Zap,
       // color: "from-purple-400 to-pink-500",
@@ -35,8 +35,8 @@ const Achievements = () => {
     {
       id: 3,
       title: "Team Leadership Award",
-      description: "Successfully led multiple cross-functional teams to deliver exceptional results",
-      image: "/WhatsApp Image 2025-07-18 at 12.24.31_59c81c24.png",
+      description: "CSI award",
+      image: "/Screenshot 2025-07-17 122451.png",
       icon: Star,
       // color: "from-blue-400 to-cyan-500",
       shadowColor: "shadow-blue-500/25",
@@ -45,9 +45,9 @@ const Achievements = () => {
     },
     {
       id: 4,
-      title: "Technical Excellence",
-      description: "Demonstrated mastery in full-stack development and system architecture",
-      image: "/Screenshot 2025-07-17 122451.png",
+      title: "SQL batch",
+      description: "Received the sql batch on leetcode",
+      image: "/Screenshot 2025-07-18 120315.png",
       icon: Medal,
       // color: "from-green-400 to-emerald-500",
       shadowColor: "shadow-green-500/25",
@@ -56,8 +56,8 @@ const Achievements = () => {
     },
     {
       id: 5,
-      title: "Client Satisfaction Award",
-      description: "Consistently delivered projects exceeding client expectations",
+      title: "Certification from Google",
+      description: "Consistently working on the AI (GenAI)",
       image: "/image1.png",
       icon: Target,
       // color: "from-red-400 to-rose-500",
