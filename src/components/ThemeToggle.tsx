@@ -1,27 +1,15 @@
 import React from 'react';
-import { Sun, Moon } from 'lucide-react';
-import { useTheme } from '../hooks/useTheme';
+import { Moon } from 'lucide-react';
 
 const ThemeToggle = () => {
-  const { theme, toggleTheme } = useTheme();
-
   return (
     <button
-      onClick={toggleTheme}
-      className="relative p-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 dark:from-blue-600 dark:to-purple-600 text-white shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 group"
-      aria-label="Toggle theme"
+      className="relative p-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 group"
+      aria-label="Dark theme only"
     >
       <div className="relative w-6 h-6">
-        <Sun 
-          className={`absolute inset-0 transform transition-all duration-500 ${
-            theme === 'light' ? 'rotate-0 opacity-100' : 'rotate-180 opacity-0'
-          }`}
-          size={24}
-        />
         <Moon 
-          className={`absolute inset-0 transform transition-all duration-500 ${
-            theme === 'dark' ? 'rotate-0 opacity-100' : '-rotate-180 opacity-0'
-          }`}
+          className="absolute inset-0 rotate-0 opacity-100 transition-all duration-500"
           size={24}
         />
       </div>
